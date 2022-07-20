@@ -11,70 +11,73 @@
 /* heder start */
 .best-player {
     background-color: black;
-    /* display: flex; */
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: white;
     width: 100%;
-    margin: 20px 50px;
-    border-radius: 8px;
-    padding: 25px 20px;
+    height: 400px;
 
-
+    margin: 10px 15px;
+    border-radius: 15px;
+    padding: 11px 9px;
 }
 
 .best-info {
-    background-color: aqua;
-    padding: 4px 20px;
-
+    padding: 15px 10px;
 }
 
 .header-btn {
-    background-color: red;
+    background-color: rgb(168, 7, 7);
     margin: 25px 0 0 0;
     padding: 15px 20px;
     border-radius: 5px;
     color: wheat;
-
 }
 
 .player-img {
-    background-color: red;
-    padding: 3px 20px;
+    padding: 9px 14px;
 }
 
 .player-img img {
-
-    width: 50%;
+    width: 100%;
 }
 
-/* heder ind */
+/* header end */
+
 /* main information */
 .main-all {
-    margin: 20px 40px;
+    margin: 15px 25px;
     border-radius: 8px;
     padding: 10px 10px;
 }
 
 .main-infor {
     float: left;
-    clear: both;
-    margin: o o 10px;
-    padding-right: 20px;
+    width: 180px;
+    height: 280px;
 
+
+}
+
+.match-link {
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(29, 18, 125);
 }
 
 .main-img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px 15px;
-
 }
 
 .more-img {
-    background-color: #ffffff5b;
+    background-color: rgb(148, 148, 116);
     border-radius: 10px;
     padding: 10px 15px;
+    color: white;
 }
 
 .players-btn {
@@ -83,27 +86,25 @@
     background-color: black;
     border-radius: 5px;
     height: 40vh;
-
-
-
 }
 
 .main-button {
     padding: 10px 5px;
     margin: 15px 10px;
     border-radius: 5px;
+}
+
+.btn-colr {
+    background-color: red;
 
 }
 
 .more-player {
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 30px 20px;
     border-radius: 5px;
 }
-
-
 
 .more-player-img img {
     width: 100%;
@@ -113,14 +114,11 @@
     border-radius: 5px;
     padding: 5px 10px;
     margin: 5px 0 10px 0;
-
-
 }
 
 .main-icon {
     display: flex;
     row-gap: 50px;
-
 }
 
 .clock-icon {
@@ -130,40 +128,43 @@
 .c-icon,
 .m-icon {
     padding-right: 10px;
+}
+
+.hidden-btn {
+    margin: 15px 0;
+    color: white;
+    padding: 10px 15px;
+    background-color: mediumslateblue;
+    border-radius: 5px;
+    display: none;
 
 }
 
+.hidden-btn button {
+    text-align: center;
+}
 
+/* main end */
 
 /* footer start */
 
-
 footer {
-
     display: grid;
-
-
     background-color: black;
     color: white;
     height: 400px;
     padding: 10px 5px;
     justify-content: center;
-
-
 }
 
 .foot-heding {
-
     text-align: center;
     margin: 70px 0 0 0;
 }
 
-.footer-ul {}
-
 ul {
     display: flex;
     text-align: center;
-
 }
 
 ul li {
@@ -172,6 +173,31 @@ ul li {
     color: white;
     margin: 50px 0px;
     font-size: 16px;
+}
 
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.icon-one {
+    font-size: 3rem;
+    color: blue;
+    border-radius: 2px;
 
 }
+
+.icon-two {
+    font-size: 3rem;
+    color: dodgerblue;
+}
+
+.icon-tree {
+    font-size: 3rem;
+    color: lightseagreen;
+}
+
+/* footer end */
