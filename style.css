@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* heder start */
+.best-player {
+    background-color: black;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    width: 100%;
+    margin: 20px 50px;
+    border-radius: 8px;
+    padding: 25px 20px;
+
+
+}
+
+.best-info {
+    background-color: aqua;
+    padding: 4px 20px;
+
+}
+
+.header-btn {
+    background-color: red;
+    margin: 25px 0 0 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: wheat;
+
+}
+
+.player-img {
+    background-color: red;
+    padding: 3px 20px;
+}
+
+.player-img img {
+
+    width: 50%;
+}
+
+/* heder ind */
+/* main information */
+.main-all {
+    margin: 20px 40px;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+
+.main-infor {
+    float: left;
+    clear: both;
+    margin: o o 10px;
+    padding-right: 20px;
+
+}
+
+.main-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 15px;
+
+}
+
+.more-img {
+    background-color: #ffffff5b;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.players-btn {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 5px;
+    height: 40vh;
+
+
+
+}
+
+.main-button {
+    padding: 10px 5px;
+    margin: 15px 10px;
+    border-radius: 5px;
+
+}
+
+.more-player {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 20px;
+    border-radius: 5px;
+}
+
+
+
+.more-player-img img {
+    width: 100%;
+}
+
+.more-btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0 10px 0;
+
+
+}
+
+.main-icon {
+    display: flex;
+    row-gap: 50px;
+
+}
+
+.clock-icon {
+    padding-right: 50px;
+}
+
+.c-icon,
+.m-icon {
+    padding-right: 10px;
+
+}
+
+
+
+/* footer start */
+
+
+footer {
+
+    display: grid;
+
+
+    background-color: black;
+    color: white;
+    height: 400px;
+    padding: 10px 5px;
+    justify-content: center;
+
+
+}
+
+.foot-heding {
+
+    text-align: center;
+    margin: 70px 0 0 0;
+}
+
+.footer-ul {}
+
+ul {
+    display: flex;
+    text-align: center;
+
+}
+
+ul li {
+    list-style: none;
+    padding: 5px 10px;
+    color: white;
+    margin: 50px 0px;
+    font-size: 16px;
+
+
+}
