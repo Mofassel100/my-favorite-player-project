@@ -365,7 +365,7 @@ ul li {
         padding: 10px 15px;
         background-color: mediumslateblue;
         border-radius: 5px;
-        text-align: center;
+        float: center;
 
 
     }
